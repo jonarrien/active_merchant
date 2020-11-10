@@ -66,3 +66,5 @@ require a *verification value*, e.g. a CVV code, to be given.
 Validating a credit card is as simple as calling `CreditCard#valid?`, which
 returns `true` only if the credentials are syntactically valid. If there are any errors or omissions,
 the `CreditCard#errors` attribute will be non-empty.
+
+Simple test
